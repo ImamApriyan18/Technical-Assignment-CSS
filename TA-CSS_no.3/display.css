@@ -1,26 +1,20 @@
 nav {
-    background: lightskyblue;
+    background-color: lightskyblue;
 }
 
-a {
+nav a {
     font-family: sans-serif;
     font-weight: 400;
     color: black;
     text-transform: uppercase;
     text-decoration: none;
-}
-a {
-    list-style-type: none;
-    padding-left: 0;
-}
-a {
-    display: inline-block;
-}
-a {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
-    padding-right: 15 px;
+    padding-right: 15px;
+}
+nav a {
+    display: inline-block;
 }
 
 a:hover {
